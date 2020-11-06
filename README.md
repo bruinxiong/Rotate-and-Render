@@ -2,7 +2,7 @@
 
 [Hang Zhou*](https://hangz-nju-cuhk.github.io/), Jihao Liu*, [Ziwei Liu](https://liuziwei7.github.io/), [Yu Liu](http://www.liuyu.us/), and [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/).
 
-[[Paper]](https://arxiv.org/abs/2003.08124)
+[[Paper]](https://arxiv.org/abs/2003.08124) [[Video]](https://www.youtube.com/watch?v=A12ckWqakTc)
 
 <img src='./misc/teaser.png' width=880>
 
@@ -71,6 +71,8 @@ For example the folder_level is 2 if a image is stored as ```prefix/label/image.
 * Please see the DEMO part for inference.
 
 ## Details of the Models
+
+<img src='./misc/teaser.gif' width=400>
 
 We provide two models with trainers in this repo, namely ```rotate``` and ```rotatespade```. The "rotatespade" model is an upgraded one which is different from that described in our paper. A conditional batchnorm module is added according to landmarks predicted from the 3D face. Our checkpoint is trained on this model. We have briefly described this model in our supplementary materials.
 
